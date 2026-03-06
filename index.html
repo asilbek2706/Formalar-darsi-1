@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h1>Formalar</h1>
+<h1>Formalar</h1>
 
 <form action="/server.py" method="POST">
     <div>
@@ -26,8 +26,8 @@
     </div>
     <br>
     <div>
-        <label for="birthday">Tug'ilgan kun:</label>
         <input type="date" name="birthday" id="birthday">
+        <label for="birthday">=>Tug'ilgan kun</label>
     </div>
     <br>
     <div>
@@ -44,6 +44,45 @@
     <div>
         <button type="submit">Register</button>
     </div>
+
+    <br>
+
+    <div>
+        <h4>Bu checkbox</h4>
+
+        <label for="news">Birinchi</label>
+        <input type="checkbox" name="new" id="news">
+
+        <br>
+
+        <input type="checkbox" name="new" id="new">
+        <label for="new">Ikkinchi</label>
+    </div>
+    <br>
+    <br>
+    <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Erkak</label>
+
+        <input type="radio" name="gender" id="female" value="male">
+        <label for="female">Ayol</label>
+    </div>
+
+    <br>
+    <select name="ishlash-vaqti">
+        <option value="0">Tajriba tanlang:</option>
+        <option value="1">1 yil tajribalik</option>
+        <option value="2">2 yil tajribalik</option>
+        <option value="5">5 yil tajribalik</option>
+        <option value="6">6 yil tajribalik</option>
+    </select>
+
+    <br>
+    <br>
+    <hr>
+
+    <textarea cols="100" placeholder="Ozingiz haqingizda..." rows="10"></textarea>
+
 </form>
 
 </body>
