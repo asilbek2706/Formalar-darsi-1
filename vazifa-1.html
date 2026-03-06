@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRM: Foydalanuvchilarni boshqarish tizimi</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #birinchi {
+            color: red;
+        }
+
+        .ikkinchi {
+            color: yellow;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+<!--Bu forma-->
+<div class="form-container">
+    <form>
+        <label for="username" id="birinchi">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="email" class="ikkinchi">Email: </label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="date">Tugilga kun</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="phone">Telefon: </label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <button type="submit">Ro'yhatga qoshish</button>
+    </form>
+</div>
+
+<br>
+<hr>
+<br>
+
+<!--Bu table-->
+
+<div id="table-container">
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Ism</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Amallar</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto@mail.ru</td>
+            <td>998</td>
+            <td>Ochirish</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto@mail.ru</td>
+            <td>998</td>
+            <td>Ochirish</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto@mail.ru</td>
+            <td>998</td>
+            <td>Ochirish</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
